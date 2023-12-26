@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #c6dbee;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            text-align: center;
+            margin: 5px 0;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1); /* Membuat ikon membesar saat dihover */
+        }
+
+        table {
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        th:hover, td:hover {
+            background-color: #f2f2f2; /* Membuat latar belakang ikon berubah saat dihover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Mahasiswa</h1>
+    <img src="anjayslebew.jpeg" alt="Foto Mahasiswa">
+    <p>Nama: Andreas March Elia Marjen</p>
+    <p>NIM: 225410044</p>
+
+    <table>
+        <tr>
+            <th>Mata Kuliah</th>
+            <th>Nilai</th>
+        </tr>
+        <tr>
+            <td>Teknologi Cloud</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Praktikum Teknologi Cloud</td>
+            <td>100</td>
+        </tr>
+        <!-- Tambahkan baris tabel sesuai kebutuhan -->
+    </table>
+</body>
+</html>
